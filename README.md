@@ -1,5 +1,13 @@
 # Jupyter Analytics Backend
 
+> **My contribution (Harkeerat Singh Sawhney, EPFL CHILI Lab semester project, Sep 2025 – Jan 2026, grade 6/6)**
+> I extended Jupyter Analytics with real-time collaboration features that were merged upstream and used in live EPFL courses:
+> instructor → student **live notebook sync** with a deferred-update queue (students accept or dismiss incoming changes
+> without losing their own work), **RISE slideshow** integration, a **teammate location tracker** sidebar for peer
+> collaboration, and instructor-side analytics of pending updates. Original project: [chili-epfl/jupyter-analytics](https://github.com/chili-epfl/jupyter-analytics).
+
+
+
 As part of the learning analytics system ([**Jupyter Analytics**](https://github.com/chili-epfl/jupyter-analytics)), the backend handles tasks like request processing, data storage, access control, and pre-processing raw data from [**Telemetry**](https://github.com/chili-epfl/jupyter-analytics-telemetry) to prepare structured data for [**Dashboard**](https://github.com/chili-epfl/jupyter-analytics-dashboard), etc. This repository contains the source code for the backend Flask API as well as the automated workflows to publish the generated Docker image and to deploy a specific version of the app to AWS Elastic Beanstalk.
 
 ## Backend Infrastructure
